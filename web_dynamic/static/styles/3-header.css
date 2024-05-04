@@ -9,3 +9,21 @@ header .logo {
     left: 20px;
     height: 100%;
 }
+
+/* Styling for API status */
+#api_status {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+/* Styling for API status when available */
+#api_status.available {
+    background-color: #ff545f;
+}
+
